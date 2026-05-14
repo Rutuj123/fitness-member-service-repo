@@ -25,8 +25,8 @@ public class MemberController {
 @Autowired
 private MemberService service;
 
-@Autowired
-private MemberEventProducer memberEventProducer;
+//@Autowired
+//private MemberEventProducer memberEventProducer;
 
 @PostMapping("/addMember")
 public ResponseEntity<Member> createMember(@RequestBody MemberRequest request) {
